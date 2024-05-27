@@ -1,0 +1,1 @@
+goctl api go -api aula3.api -dir .
