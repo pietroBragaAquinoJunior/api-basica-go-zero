@@ -9,7 +9,6 @@ info (
 
 type (
 	UserInfo {
-		Id    int64  `path:"id"`
 		Nome  string `json:"nome"`
 		Idade int    `json:"idade"`
 	}
