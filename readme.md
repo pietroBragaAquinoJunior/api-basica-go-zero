@@ -1,7 +1,7 @@
 goctl api go -api aula3.api -dir .
 
 ----------------- DEPLOY EC2 COMANDOS------------
-login:ec2-user (amazon Linux)
+login:ec2-user (amazon Linux) =================
 
 sudo yum update -y
 
@@ -23,17 +23,23 @@ cd ..
 cd ..
 
 mkdir -p ~/projetos
+
 cd ~/projetos
-git clone ...................
-entrar e rodar o projeto
+
+git clone ...
 
 
 
 sudo yum install tmux -y
-Inicie uma nova sessão tmux:
+
+Inicie uma nova sessão tmux=======================
 
 tmux
+
+entrar na pasta do projeto que tem o arquivo .go principal e rodar o projeto======================
+
 go run seu_arquivo.go
+
 ctrl+b   seguido de  d
   
 Para reanexar à sessão tmux:
