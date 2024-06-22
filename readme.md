@@ -8,10 +8,15 @@ sudo yum update -y
 sudo yum install -y git
 
 cd /usr/local
+
 sudo wget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz
+
 sudo tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz
+
 echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
+
 source ~/.bashrc
+
 go version
 
 cd ..
